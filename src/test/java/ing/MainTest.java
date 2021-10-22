@@ -5,7 +5,8 @@ import org.testng.Assert;
 
 public class MainTest {
     @Test()
-    public void testMain(){
-        Main main = new Main();
+    public void MainTest() {
+        Main.main(new String[0]);
+        Assert.assertTrue(true);
     }
 }
